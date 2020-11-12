@@ -88,7 +88,7 @@ nav{
 }
 /* Container */
 .main  {
-    margin-top: 80px;
+    margin-top: 110px;
     position: relative;
   }
   .row{
@@ -101,25 +101,27 @@ nav{
     height: 100%;
     position: relative;
   }
-  .right-col{
-    justify-content: center;
-    align-self: center;
+  .right-col img{
+    height: 500px;
+    width: 250px;
   }
   .col-md-6
   {
     padding: 0;
   }
-  .main{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
   .main h4{
-    font-size: 40px;
+    font-size: 50px;
     line-height: 50px;
     letter-spacing: 1px;
     font-family: 'Roboto Slab', serif;
   }
+.main h1{
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
   .main p{
     color: #adadad;
     font-size: 15px;
